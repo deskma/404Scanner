@@ -1,0 +1,49 @@
+@colorMain: #3097D1;
+
+@fontMain: 'Raleway';
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body{
+	font-family: @fontMain;
+}
+
+#page-wrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+
+a{ 
+	color:	@colorMain;
+}
+
+h1{
+	// color:	@colorMain !important;	
+	// border-bottom: 1px solid #ccc;
+	// padding-bottom: 10px;
+	// margin-bottom: 50px;
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+form{
+	width: 50%;
+	margin: 0 auto 30px;
+	text-align: center;
+
+	input[type='text']{
+		padding: 3px;
+		width: 150px;
+	}
+
+	input[type='submit']{
+		text-transform: uppercase;
+		font-weight: bold;
+		width: 90px;
+		padding: 3px;
+	}
+}

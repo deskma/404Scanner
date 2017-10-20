@@ -1,0 +1,6 @@
+ 
+ 
+- test for flavicon
+ - add title on the email and in scan 
+ 
+Get the title for the page 

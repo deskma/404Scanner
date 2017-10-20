@@ -1,0 +1,91 @@
+body{
+	font-family: Tahoma;
+	min-width: 360px;
+
+}
+
+navbar.navbar-custom, .navbar-custom.top-nav-collapse {
+	background: rgba(0,0,0,0.9) !important;
+}
+
+.price-col{
+	background: #fff;
+	padding: 20px;
+	
+	border-radius: 3px;
+
+	min-height: 300px;
+}
+.price-col h3{
+	color: #000;
+}
+.price-col p{
+	font-size: 1em;
+	color: #000;
+	line-height: 18px;
+}
+// .price-col .btn{
+// 	color: #fff;
+// 	background: rgba(255, 255, 255, 0.5);
+// }
+
+footer p{
+	font-size: .8em;
+}
+
+
+.errorlist{
+	text-align: left;
+	
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+.errorlist .box--title{
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 900;
+	color: #c00;
+}
+
+.errorlist tbody a{
+	color: #0c0;
+}
+
+.errorlist td{
+	
+	border: 1px solid #ccc;
+	padding: 5px;
+	line-height: normal;
+}
+.errorlist tfoot{
+	color: #c00;
+}
+.errorlist tfoot td:last-child{
+	font-weight: 900;
+}
+
+@media (max-width: 1199px){
+	.col-lg-4 {
+	    margin-bottom: 1px;
+	}
+	.price-col{
+		min-height: auto;
+	}
+}
+
+
+.services p,
+.services h4{
+	margin: 0 0 10px;
+	text-align: left;
+	font-weight: 100;
+	color: #636b6f;
+}
+.services .row{
+	margin-bottom: 20px;
+}
+.services p{
+	font-size: 1em;
+}
